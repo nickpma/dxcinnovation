@@ -19,12 +19,12 @@ export default class App extends React.Component {
             <View style={styles.container}>
 
                 <TextInput
-                    value={this.state.usernameValue}
+                    placeholder={this.state.usernameValue}
                     onChangeText={this._handleTextChange}
                     style={{ width: 200, height: 44, padding: 8 }}
                 />
                 <TextInput
-                    value={this.state.passwordValue}
+                    placeholder={this.state.passwordValue}
                     onChangeText={this._handleTextChange}
                     style={{ width: 200, height: 44, padding: 8 }}
                 />
